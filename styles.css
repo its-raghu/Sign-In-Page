@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    flex: 1;
+    background-color: rgba(80, 102, 96, 0.938);
+    max-width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+h2{
+    color: rgb(216, 216, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.user{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.login{
+    margin-top: 25px;
+}
+button,input{
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+    border: none;
+}
+.login{
+    background-color: rgb(82, 173, 131);
+}
+.signup{
+    background-color: rgb(145, 140, 140);
+    margin-bottom: 20px;
+}
+h6{
+    color: white;
+    font-weight: 100;
+}
+button{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+.svg-icon{
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+.pass{
+    position: relative;
+}
+.key-icon{
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+.line-one{
+    position: absolute;
+    top: 5px;
+    left: -125px;
+}
