@@ -17,6 +17,7 @@ body{
     text-align: center;
     padding: 20px;
     border-radius: 30px;
+    box-shadow: 1px 1px 15px rgb(55, 56, 55);
 }
 h2{
     color: rgb(216, 216, 8);
@@ -27,9 +28,6 @@ h2{
     margin-bottom: 15px;
     position: relative;
 }
-.login{
-    margin-top: 25px;
-}
 button,input{
     padding: 10px;
     padding-left: 35px;
@@ -39,10 +37,10 @@ button,input{
 }
 .login{
     background-color: #75A582;
+    margin-top: 25px;
 }
 .signup{
-    background-color: 
-    #7D7D7D;
+    background-color: #7D7D7D;
     margin-bottom: 20px;
 }
 h6{
@@ -70,4 +68,14 @@ button{
     position: absolute;
     left: 36px;
     top: 5px;
+}
+.login:active{
+    background-color: #b3d3bc;
+}
+.signup:active
+{
+    background-color: #9e9b9b;
+}
+button:hover{
+    box-shadow: 2px 2px 5px rgb(65, 64, 64),2px 2px 5px rgb(65, 64, 64);
 }
