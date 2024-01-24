@@ -78,4 +78,5 @@ button{
 }
 button:hover{
     box-shadow: 2px 2px 5px rgb(65, 64, 64),2px 2px 5px rgb(65, 64, 64);
+    background-color: #a05b33;
 }
